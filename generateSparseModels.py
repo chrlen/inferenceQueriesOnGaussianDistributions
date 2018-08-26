@@ -45,7 +45,6 @@ def genModel(sparsity,dim):
     with open(modelsPath+ str(dim) + '/s' + str(sparsity) + '.pickle', 'wb') as f:
                 pickle.dump(d, f)
 
-
 for dim in dims:
     subdirPath = modelsPath + str(dim) + '/'
     subdir = os.path.dirname(subdirPath)

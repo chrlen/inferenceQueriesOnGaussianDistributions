@@ -4,8 +4,6 @@
 
 cd ..
 
-python generateSparseModels.py
-
 python timeAtomicOperations.py models/canonical/ #Done!
 python consolidateDataFrames.py atomicOperations.csv models/canonical intel/
 
